@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c4d45"/>
+      <stop offset="1" stop-color="#0e2824"/>
+    </linearGradient>
+    <linearGradient id="foil" gradientUnits="userSpaceOnUse" x1="10" y1="8" x2="54" y2="56">
+      <stop offset="0" stop-color="#f6ffe8"/>
+      <stop offset="0.42" stop-color="#d5efaa"/>
+      <stop offset="0.72" stop-color="#f3fbe2"/>
+      <stop offset="1" stop-color="#8eae62"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="0.28" cy="0.18" r="0.85">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="15" fill="url(#bg)"/>
+  <rect width="64" height="64" rx="15" fill="url(#sheen)"/>
+  <path d="M46 23C40 11 14 12 16 32C14 52 40 54 46 43" fill="none" stroke="url(#foil)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M17 33H48" fill="none" stroke="url(#foil)" stroke-width="7" stroke-linecap="round"/>
+</svg>

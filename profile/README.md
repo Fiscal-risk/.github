@@ -7,4 +7,6 @@ Studio digitale per pratiche fiscali delimitate: check, lettura atti, rate e fas
 - Backend: [Fiscal-risk/be](https://github.com/Fiscal-risk/be)
 - Frontend: [Fiscal-risk/fe](https://github.com/Fiscal-risk/fe)
 
-![Elefisco](assets/logo.jpg)
+<p align="center">
+  <img src="assets/logo.svg" alt="Elefisco" width="128" height="128" />
+</p>
